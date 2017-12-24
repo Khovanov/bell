@@ -1,0 +1,78 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+ul.notificator {
+  display: inline-block;
+  float:right;
+  margin: 20px;
+  li
+  {
+    position: relative;
+    list-style: none;
+    float:right;
+
+    i
+    {
+      color: #fff;
+    }
+  }
+}
+
+#notification-counter {
+  position: absolute;
+  top: -5px;
+  left: 30px;
+
+  background-color: rgb(212, 78, 3);
+  color: #fff;
+  border-radius: 3px;
+  padding: 1px 3px;
+  font: 8px Verdana;
+}
+
+#notification-ip {
+  position: relative;
+  top: 5px;
+  color: #d44e03;
+  padding: 0 10px 0 0;
+}
+
+#notification-time {
+  position: relative;
+  top: 5px;
+  color: #aba3a3;
+  padding: 0 10px 0 0;
+}
+
+#cta {
+  position: fixed;
+  top: 30%;
+  left: 45%;
+  z-index: -1;
+}
+
+p {
+  color: #aba3a3;
+  width: 300px;
+  font-size: medium;
+  margin-left: 7px;
+}
+
+
+#cta button {
+  border: 2px solid;
+  border-radius: 25px;
+  color: #d44e03;
+  background-color: #ffffff;
+  font-size:medium;
+  height: 50px;
+  width: 200px;
+  box-shadow: 10px 10px 5px #888888;
+  outline:none;
+}
+
+#cta button:hover {
+  background-color: #d44e03;
+  color: #ffffff;
+}
